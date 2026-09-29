@@ -1,0 +1,36 @@
+# Environment variables
+.env
+*.env
+Backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+Backend/venv/
+venv/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node dependencies & Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Testing & Local Database Storage
+.pytest_cache/
+qdrant_storage/
+Backend/qdrant_storage/
+scratch/
+Backend/scratch/
+uploads/
+Backend/uploads/
+*.sqlite
+*.db
+
