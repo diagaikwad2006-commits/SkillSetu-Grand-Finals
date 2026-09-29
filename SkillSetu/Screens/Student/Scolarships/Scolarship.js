@@ -10,8 +10,7 @@ import {
   View,
 } from 'react-native';
 
-const STITCH_MCP_API_KEY = '';
-
+const STITCH_MCP_API_KEY = import.meta.env.VITE_STITCH_MCP_API_KEY;
 const COLORS = {
   bgSurface: '#f9f9f8',
   surfaceContainerLowest: '#ffffff',
